@@ -3,16 +3,15 @@ package com.qa.calculator;
 import org.junit.Assert;
 import org.junit.Test;
 
-public class AdderTest {
+public class MultiplyTest {
 
-		private Adder adder;
-		
+private Multiplier multiplier;
+	
 	@Test
 	public void test() {
-		adder = new Adder();
-		int expectedValue = 4;
-		int actualValue = adder.add(2, 2);
+		multiplier = new Multiplier();
+		int expectedValue = 8;
+		int actualValue = multiplier.Multiplier(4, 2);
 		Assert.assertEquals(expectedValue, actualValue);
 	}
-
 }
