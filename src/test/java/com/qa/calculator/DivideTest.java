@@ -13,7 +13,7 @@ private Divider divider;
 	public void test() {
 		divider = new Divider();
 		int expectedValue = 2;
-		int actualValue = divider.Divider(4, 2);
+		int actualValue = divider.Divide(4, 2);
 		Assert.assertEquals(expectedValue, actualValue);
 	}
 

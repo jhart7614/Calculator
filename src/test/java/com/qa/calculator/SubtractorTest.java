@@ -11,7 +11,7 @@ public class SubtractorTest {
 	public void test() {
 		subtractor = new Subtractor();
 		int expectedValue = 2;
-		int actualValue = subtractor.Subtractor(4, 2);
+		int actualValue = subtractor.Subtract(4, 2);
 		Assert.assertEquals(expectedValue, actualValue);
 	}
 }

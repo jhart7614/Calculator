@@ -11,7 +11,7 @@ private Multiplier multiplier;
 	public void test() {
 		multiplier = new Multiplier();
 		int expectedValue = 8;
-		int actualValue = multiplier.Multiplier(4, 2);
+		int actualValue = multiplier.Multiply(4, 2);
 		Assert.assertEquals(expectedValue, actualValue);
 	}
 }
